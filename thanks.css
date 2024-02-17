@@ -1,0 +1,36 @@
+.thanks {
+    width: 500px;
+    height: 575px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin: 80px auto; 
+}
+
+.thank_you {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.image_thanks {
+    width: 150px;
+}
+
+.descrition_thanks {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+
+.text_thanks {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--light-gray);
+}

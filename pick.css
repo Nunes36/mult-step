@@ -1,0 +1,145 @@
+.pick {
+    width: 500px;
+    height: 575px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title_pick {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.title_page {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--marine-blue);
+}
+
+.exp {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--light-gray);
+}
+
+.container_add {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.pick_ons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 400px;
+    height: 400px;
+}
+
+.cards_add {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: solid var(--light-gray) 1px;
+    border-radius: 5px;
+}
+
+.cards_add:hover {
+    background-color: var(--magnolia);
+    border: solid var(--marine-blue) 1px;
+    cursor: pointer;
+}
+
+.add_select {
+    background-color: var(--magnolia);
+    border: solid var(--marine-blue) 1px;
+}
+
+#checked {
+    width: 10px;
+}
+#checked:hover {
+    cursor:pointer;
+}
+
+.container_text {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    padding: 5px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.title_card {
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--marine-blue);
+}
+
+.descrition_card {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--light-gray);
+}
+
+.preços {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--purplish-blue);  
+}
+
+.buttons {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.go {
+    background-color: transparent;
+    font-weight: 700px;
+    font-family: var(--fonte-principal);
+    color: var(--light-gray);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.next_stop {
+    background-color: var(--marine-blue);
+    font-family: var(--fonte-principal);
+    color: var(--light-gray);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
